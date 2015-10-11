@@ -1,0 +1,119 @@
+
+body {
+	background-image: url('../img/space_thumb.gif');
+	color: #FFEA73;
+}
+
+button {
+	background: url('../img/saber_button.jpg');
+	height:96px;
+	width: 96px;
+	border-radius: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@font-face {
+  font-family: 'starjedi';
+  src: url('Starjedi.ttf');
+}
+
+#reset{
+	background-image: url('../img/space_thumb.gif');
+	width: 100px;
+	height: 50px;
+	font-family: 'starjedi';
+	letter-spacing: 4px;
+	color: #FFEA73;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	padding: 0px,0px,0px,0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'starjedi';
+	font-weight: 800;
+	padding-top: 0;
+	height: 70px;
+
+}
+
+.player1{
+	background: url("../img/rebel_icon.jpg");
+	background-repeat: no-repeat;
+}
+
+.player2{
+	background: url("../img/empire_icon.jpeg");
+	background-repeat: no-repeat;
+}
+
+#player1{
+	text-align: center;
+  font-family: 'starjedi';
+	/*background-color: red;*/
+}
+
+#player2{
+	text-align: center;
+  font-family: 'starjedi';
+	/*background-color: green;*/
+}
+
+.row {
+  position: relative;
+  text-align: center;
+  /*border: 2px solid #FFEA73;*/
+  height: 82px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  position:;
+}
+
+.board_table {
+  /*position:relat;*/
+}
+/*
+.reset_button {
+  background: url('../img/reset.png');
+  background-repeat: no-repeat;
+  height:96px;
+  width: 96px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+
+.current_player1 {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.current_player2 {
+  background-color: green;
+  border-radius: 10px;
+}
+
+.winner {
+  font-size: 80px;
+  color: red;
+  text-align: center;
+  font-family: 'starjedi';
+  font-weight: bold;
+  width: 60%;
+  /*height:100px;*/
+  border: 1px solid Black;
+  text-align: left;
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  margin-left:-70px;
+  margin-top:-50px; 
+}
+
